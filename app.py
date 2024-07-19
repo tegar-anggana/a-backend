@@ -236,11 +236,11 @@ def allowed_file(filename):
 @app.route('/')
 def hello_world():
     return 'Hello, World!'
-    # mystring = f"{2000:.2f}%"
-    # mydict = {
-    #     "persentase_kelengkapan": mystring,
-    # }
-    # return mydict
+
+@app.route('/surahs', methods=['GET'])
+def get_surahs():
+    surahs = list(quran_embeddings.keys())
+    return jsonify(surahs)
 
 # if __name__ == '__main__':
 #     app.run(debug=True)
