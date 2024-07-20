@@ -15,6 +15,7 @@
 - jalanin flask app : py app.py
 
 # DLL
+- windows gaje : Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser
 - hah : pip install flask flask-cors scikit-learn numpy
 - pip install transformers ✅
 - pip install torch ✅
