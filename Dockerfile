@@ -1,4 +1,4 @@
-FROM python:3.9-alpine
+FROM python:3.11-alpine
 
 # Set up environment variables for Python
 ENV PYTHONDONTWRITEBYTECODE 1
