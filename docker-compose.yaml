@@ -1,7 +1,7 @@
 services:
   a-backend:
     build:
-      context: ./a-backend-main
+      context: .
     container_name: a-backend-container
     ports:
       - "8881:5000"
