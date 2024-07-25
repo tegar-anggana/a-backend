@@ -1,11 +1,20 @@
-# STEP JALANIN (PERHATIKAN URUTAN)
+# Deploy TA
+- Vinna Alfiati (https://github.com/tegar-anggana/a-backend)
+- Tegar Levta Anggana (https://github.com/tegar-anggana/skripsi-deployment)
+
+# Command
+- `docker-compose up --build -d`
+- `docker-compose down`
+
+# etc.
+## STEP JALANIN (PERHATIKAN URUTAN)
 1. tutorial instal ffmpeg (windows) : https://phoenixnap.com/kb/ffmpeg-windows
 2. instal python 3.12.3 (kalau belum instal)
 3. activate venv : .\venv\Scripts\activate
 4. instal package di environment tsb. : pip install -r requirements.txt
 5. jalanin flask app : py app.py
 
-# GUIDE
+## GUIDE
 - link ffmpeg windows : https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-full.7z
 - python versi 3.10.2
 - .\pythondist\python.exe --version
@@ -14,7 +23,7 @@
 - instal package di environment tsb. : pip install -r requirements.txt (3)
 - jalanin flask app : py app.py
 
-# DLL
+## DLL
 - windows gaje : Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser
 - hah : pip install flask flask-cors scikit-learn numpy
 - pip install transformers ✅

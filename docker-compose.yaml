@@ -1,11 +1,7 @@
-version: '3'
-
 services:
-  python-app:
+  a-backend:
     build:
-      context: .
-      dockerfile: Dockerfile
+      context: ./a-backend-main
+    container_name: a-backend-container
     ports:
-      - "8080:8080"
-    volumes:
-      - .:/app:ro
+      - "8881:5000"
